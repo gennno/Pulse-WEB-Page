@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accelerating Digital Transformation</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ivory: '#FFFFF0',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-ivory text-gray-800">
+
+    <!-- Navbar -->
+    <header class="fixed top-0 w-full z-50 bg-ivory shadow">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold">YourCompany</h1>
+            <nav class="space-x-6 text-sm">
+                <a href="#about" class="hover:underline">About Us</a>
+                <a href="#services" class="hover:underline">Services</a>
+                <a href="#experiences" class="hover:underline">Experiences</a>
+                <a href="#partners" class="hover:underline">Partners</a>
+                <a href="#contact" class="hover:underline">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class="min-h-screen flex items-center pt-24 pb-12 bg-fixed bg-cover bg-center" style="background-image: url('/images/bg-hero.jpg')">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 space-y-6">
+                <h2 class="text-4xl font-bold">Accelerating Digital Transformation</h2>
+                <p>
+                    We empower companies to navigate the digital era with confidence. Through innovative solutions and cutting-edge technology, we streamline operations, enhance efficiency, and unlock new growth opportunities. Our goal is to transform challenges into breakthroughs, ensuring companies to stay ahead in an ever-evolving digital landscape.
+                </p>
+                <a href="mailto:info@yourcompany.com" class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Talk to Us</a>
+            </div>
+            <div class="md:w-1/2 mt-8 md:mt-0">
+                <img src="/images/hero-image.jpg" alt="Digital Transformation" class="w-full rounded-lg shadow">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-ivory">
+        <div class="max-w-7xl mx-auto px-4">
+            <h3 class="text-3xl font-semibold mb-8 text-center">Our Services</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 bg-white rounded-xl shadow">
+                    <h4 class="text-xl font-bold mb-2">Digital Strategy</h4>
+                    <p>Helping clients build effective digital roadmaps for sustainable growth.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow">
+                    <h4 class="text-xl font-bold mb-2">Software Development</h4>
+                    <p>Custom software and product development tailored to your needs.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow">
+                    <h4 class="text-xl font-bold mb-2">Cloud Solutions</h4>
+                    <p>Scalable, secure, and reliable cloud infrastructure and services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section id="partners" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h3 class="text-3xl font-semibold mb-6 text-center">Partners / Customers</h3>
+            <p class="text-center mb-12">We have worked with these companies and institutions in the past that contribute to our overall network and experience.</p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
+                <img src="/logos/logo1.png" alt="Partner 1" class="h-12">
+                <img src="/logos/logo2.png" alt="Partner 2" class="h-12">
+                <img src="/logos/logo3.png" alt="Partner 3" class="h-12">
+                <img src="/logos/logo4.png" alt="Partner 4" class="h-12">
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section id="experiences" class="py-20 bg-ivory">
+        <div class="max-w-7xl mx-auto px-4">
+            <h3 class="text-3xl font-semibold mb-6 text-center">Our Experience</h3>
+            <p class="text-center mb-12">A sample of our work in the past with notable national and multinational companies</p>
+            <ul class="list-disc pl-8 max-w-2xl mx-auto space-y-2">
+                <li>Enterprise ERP System for Government Institution</li>
+                <li>Smart City Dashboard for Municipal Projects</li>
+                <li>Custom CRM for National FMCG Brand</li>
+                <li>E-commerce Platform for Retail Chain</li>
+                <li>IoT Monitoring System for Manufacturing</li>
+                <li>Mobile SuperApp for Financial Services</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h3 class="text-3xl font-semibold mb-6 text-center">News</h3>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-ivory p-4 rounded shadow">
+                    <h4 class="font-bold mb-2">Product Launch</h4>
+                    <p>We recently launched a new AI-powered analytics tool for logistics.</p>
+                </div>
+                <div class="bg-ivory p-4 rounded shadow">
+                    <h4 class="font-bold mb-2">Partnership</h4>
+                    <p>Collaborating with global consulting firm for strategic development.</p>
+                </div>
+                <div class="bg-ivory p-4 rounded shadow">
+                    <h4 class="font-bold mb-2">Award</h4>
+                    <p>Named top digital transformation company by TechAsia 2024.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-ivory">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h3 class="text-3xl font-semibold mb-4">Contact Us</h3>
+            <p class="mb-6">We'd love to hear from you. Let's talk about how we can help your business grow.</p>
+            <p>Email: <a href="mailto:info@yourcompany.com" class="text-blue-600 hover:underline">info@yourcompany.com</a></p>
+            <p>Phone: +62 812-3456-7890</p>
+            <p>Address: Jakarta, Indonesia</p>
+        </div>
+    </section>
+
+    <footer class="text-center py-6 bg-white text-sm">
+        &copy; {{ date('Y') }} YourCompany. All rights reserved.
+    </footer>
+
+</body>
+</html>
