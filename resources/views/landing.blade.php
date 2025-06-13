@@ -220,18 +220,15 @@ List logo partner dan konsumen
                 class="h-28 transition duration-300 transform hover:scale-125 hover:shadow-lg hover:brightness-110">
             <img src="img/picture20.png" alt="Bank BJB"
                 class="h-20 transition duration-300 transform hover:scale-125 hover:shadow-lg hover:brightness-110">
+            <img src="img/picture21.png" alt="PLN"
+                class="h-10 w-auto transition duration-300 transform hover:scale-125 hover:shadow-lg hover:brightness-110">
+            <img src="img/picture22.png" alt="Mayar"
+                class="h-16 w-auto transition duration-300 transform hover:scale-125 hover:shadow-lg hover:brightness-110">
+            <img src="img/picture23.png" alt="PLN"
+                class="h-20 w-auto transition duration-300 transform hover:scale-125 hover:shadow-lg hover:brightness-110">
+            <img src="img/picture24.png" alt="Mayar"
+                class="h-16 w-auto transition duration-300 transform hover:scale-125 hover:shadow-lg hover:brightness-110">
 
-            <!-- Baris terakhir (kurang dari 5 logo) -->
-            <div class="col-span-full flex justify-center gap-8">
-                <img src="img/picture21.png" alt="PLN"
-                    class="h-10 w-auto transition duration-300 transform hover:scale-125 hover:shadow-lg hover:brightness-110">
-                <img src="img/picture22.png" alt="Mayar"
-                    class="h-16 w-auto transition duration-300 transform hover:scale-125 hover:shadow-lg hover:brightness-110">
-                <img src="img/picture23.png" alt="PLN"
-                    class="h-20 w-auto transition duration-300 transform hover:scale-125 hover:shadow-lg hover:brightness-110">
-                <img src="img/picture24.png" alt="Mayar"
-                    class="h-16 w-auto transition duration-300 transform hover:scale-125 hover:shadow-lg hover:brightness-110">
-            </div>
         </div>
 
     </div>
