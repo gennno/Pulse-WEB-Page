@@ -215,7 +215,7 @@ List logo partner dan konsumen
             <img src="img/picture17.png" alt="Coworking"
                 class="h-12 transition duration-300 transform hover:scale-125 hover:shadow-lg hover:brightness-110">
             <img src="img/picture18.png" alt="Bank Indonesia"
-                class="h-12 transition duration-300 transform hover:scale-125 hover:shadow-lg hover:brightness-110o">
+                class="h-12 transition duration-300 transform hover:scale-125 hover:shadow-lg hover:brightness-110">
             <img src="img/picture19.png" alt="Astra"
                 class="h-28 transition duration-300 transform hover:scale-125 hover:shadow-lg hover:brightness-110">
             <img src="img/picture20.png" alt="Bank BJB"
