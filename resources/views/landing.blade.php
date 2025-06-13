@@ -8,7 +8,7 @@
 
         <!-- Logo -->
         <a href="#">
-            <img src="img/logo1.png" alt="Pulse Solutions Logo" class="h-12">
+            <img src="img/logo.png" alt="Pulse Solutions Logo" class="h-12">
         </a>
 
         <!-- Desktop Menu -->
@@ -79,7 +79,7 @@
 
             <!-- Tombol -->
             <div class="flex flex-col sm:flex-row gap-4 mt-6">
-                <a href="#expertise"
+                <a href="#experiences"
                     class="bg-white border-black text-black px-6 py-3 text-base font-medium rounded-md shadow hover:bg-gray-100 transition">
                     Explore our experiences →
                 </a>
@@ -153,8 +153,10 @@
 
         <!-- Detail Section -->
         <div id="service-detail" class="mt-12 hidden text-left bg-white p-6 rounded shadow relative animate-slide-in">
-            <button id="back-button" class="absolute top-4 right-4 text-sm text-blue-600 hover:underline">←
-                Back</button>
+            <button id="back-button"
+                class="absolute top-4 right-4 text-base px-4 py-2 bg-white bg-opacity-90 text-blue-600 font-medium rounded-md shadow hover:bg-opacity-100 hover:underline transition">
+                ← Back
+            </button>
             <div id="service-content"></div>
         </div>
     </div>
@@ -240,74 +242,91 @@ List logo partner dan konsumen
 <!-- Segmen 4
 Teks : a sample of our work in the past with notable national and multinational companies
 Our experience list 6 pengalaman paling besar
- Section -->
+ Section <section id="experiences" class="py-24 px-6 text-center bg-white/1 text-gray-800"> -->
+
 <section id="experiences" class="py-24 px-6 text-center bg-white/1 text-gray-800">
-    <div class="max-w-7xl mx-auto space-y-12 ">
-        <h2 class="text-3xl md:text-4xl font-extrabold mb-4">OUR EXPERIENCE LIST</h2>
-        <p class="text-lg text-gray-600 mb-10 max-w-3xl mx-auto">
-            A sample of our work in the past with notable national and multinational companies </p>
-        @php
-        $projects = [
-        [
-        'title' => 'Feasibility Assessment for Retrofitting Coal Plants with Nuclear Technology',
-        'subtitle' => 'Energy Transition',
-        'description' => '5 Million Tons CO₂ eliminated annually • 70% Jobs retained with retraining',
-        'image' => 'img/project.jpeg'
-        ],
-        [
-        'title' => 'AI-Powered Consulting Excellence',
-        'subtitle' => 'AI Research',
-        'description' => 'Delivering insights in hours instead of weeks with Big Four quality',
-        'image' => 'img/project.jpeg'
-        ],
-        [
-        'title' => 'Accelerating STEM Learning Nationwide',
-        'subtitle' => 'Education',
-        'description' => 'Bringing AI-enhanced learning to over 100 schools and institutions',
-        'image' => 'img/project.jpeg'
-        ],
-        [
-        'title' => 'Smart Traffic Management Using IoT',
-        'subtitle' => 'Urban Mobility',
-        'description' => 'Real-time traffic optimization and safety systems in smart cities',
-        'image' => 'img/project.jpeg'
-        ],
-        [
-        'title' => 'Digital Twin for Energy Efficiency',
-        'subtitle' => 'Industry 4.0',
-        'description' => 'Simulating operations to reduce energy waste by 30%',
-        'image' => 'img/project.jpeg'
-        ],
-        [
-        'title' => 'Secure Financial Analytics Platform',
-        'subtitle' => 'Fintech Security',
-        'description' => 'AI-enhanced fraud detection for national payment infrastructure',
-        'image' => 'img/project.jpeg'
-        ]
-        ];
-        @endphp
-
-        @foreach ($projects as $i => $item)
-        <div
-            class="flex flex-col md:flex-row {{ $i % 2 !== 0 ? 'md:flex-row-reverse' : '' }} bg-white/70 backdrop-blur-sm rounded-lg shadow-md overflow-hidden">
-
-            <!-- Gambar -->
-            <div class="md:w-1/2">
-                <img src="{{ $item['image'] }}" alt="{{ $item['title'] }}" class="w-full h-64 md:h-full object-cover">
-            </div>
-
-            <!-- Konten -->
-            <div class="md:w-1/2 p-6 flex flex-col justify-center text-left">
-                <p class="text-sm text-teal-400 font-semibold mb-2">{{ $item['subtitle'] }}</p>
-                <h3 class="text-2xl font-bold mb-4">{{ $item['title'] }}</h3>
-                <p class="text-gray-300">{{ $item['description'] }}</p>
-            </div>
-
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mt-2">
+                Our experience
+            </h2>
+            <p class="mt-4 text-gray-500 max-w-3xl mx-auto">
+                A sample of our work in the past with notable national and multinational companies.
+            </p>
         </div>
-        @endforeach
+        <div class="grid md:grid-cols-4 gap-10">
+            <!-- Ship App -->
 
+            <div
+                class="text-center bg-white bg-opacity-70 rounded-md p-6 shadow-md transform transition-transform duration-300 hover:scale-105">
+                <div class="flex justify-center mb-4">
+                    <img src="img/app.png" alt="AI Icon" class="w-10 h-10 object-contain" />
+                </div>
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                    Ship Ticketing Platform Startup
+                </h3>
+                <p class="text-gray-500 text-sm text-justify">
+                    Advising Startup operations & Technology Roadmap. The startup won World Startup Championship in US
+                    and manage to acquire USD 10 Million in funding.
+                </p>
+            </div>
+
+            <!-- Data Complexity -->
+            <div
+                class="text-center bg-white bg-opacity-70 rounded-md p-6 shadow-md transform transition-transform duration-300 hover:scale-105">
+                <div class="flex justify-center mb-4">
+                    <img src="img/datcom.png" alt="AI Icon" class="w-10 h-10 object-contain" />
+                </div>
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                    Enterprise Architecture Strategy for Malaysian
+                    National Utility Company
+                </h3>
+                <p class="text-gray-500 text-sm text-justify">
+                    Developed an Enterprise Architecture (EA) strategy, including capability building, frameworks,
+                    operating model (e.g. demand and portfolio management, governance), and a 3-year development
+                    roadmap.
+                </p>
+            </div>
+
+            <!-- Fiber Optic -->
+            <div
+                class="text-center bg-white bg-opacity-70 rounded-md p-6 shadow-md transform transition-transform duration-300 hover:scale-105">
+                <div class="flex justify-center mb-4">
+                    <img src="img/tech.png" alt="AI Icon" class="w-10 h-10 object-contain" />
+                </div>
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                    Fiber Optic Network for a local Industrial Estate
+                </h3>
+                <p class="text-gray-500 text-sm text-justify">
+                    Creating and implementing a new fiber optic network of more than 50Km and 500Gb Capacity for an
+                    industrial estate for internet and CCTV use.
+                </p>
+            </div>
+            <!-- AI -->
+            <div
+                class="text-center bg-white bg-opacity-70 rounded-md p-6 shadow-md transform transition-transform duration-300 hover:scale-105">
+                <div class="flex justify-center mb-4">
+                    <img src="img/ai.png" alt="AI Icon" class="w-10 h-10 object-contain" />
+                </div>
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                    AI Related Training and Implementation for Various National Companies
+                </h3>
+                <p class="text-gray-500 text-sm text-justify">
+                    Our team is responsible for training sessions and consultation for various AI productivity
+                    implementations in banking and industry alike.
+                </p>
+            </div>
+        </div>
+        <!-- Centered Button -->
+        <div class="pt-12">
+            <a href="https://drive.google.com/file/d/1XGm0m56JFlGIvUSAYlSVHtfM_XAcm1Bu/view?usp=sharing" target="_blank"
+                class="bg-white border  text-black px-6 py-3 text-base font-medium rounded-md shadow hover:bg-gray-100 transition">
+                See More →
+            </a>
+        </div>
     </div>
 </section>
+
 
 <section id="news" class="py-24 px-4 bg-white/60 text-black">
     <div class="max-w-7xl mx-auto">
@@ -319,20 +338,25 @@ Our experience list 6 pengalaman paling besar
             {{-- Technology --}}
             <div class="bg-black rounded-lg overflow-hidden shadow hover:shadow-lg transition">
                 <div class="relative">
-                    <img src="{{ $tech['urlToImage'] ?? asset('img/project.jpeg') }}" alt="News" class="w-full h-48 object-cover">
-                    <span class="absolute top-3 left-3 bg-emerald-600 text-xs font-semibold px-3 py-1 rounded">Technology</span>
+                    <img src="{{ $tech->urlToImage ?? asset('img/project.jpeg') }}" alt="News"
+                        class="w-full h-48 object-cover">
+                    <span
+                        class="absolute top-3 left-3 bg-emerald-600 text-xs font-semibold px-3 py-1 rounded">Technology</span>
                 </div>
                 <div class="p-5">
-                    <h3 class="text-lg text-gray-300 font-semibold mb-2">{{ $tech['title'] ?? 'No Title' }}</h3>
-                    <p class="text-sm text-gray-300 mb-4">{{ \Illuminate\Support\Str::limit($tech['description'] ?? 'No description.', 120) }}</p>
+                    <h3 class="text-lg text-gray-300 font-semibold mb-2">{{ $tech->title ?? 'No Title' }}</h3>
+                    <p class="text-sm text-gray-300 mb-4">
+                        {{ \Illuminate\Support\Str::limit($tech->description ?? 'No description.', 120) }}</p>
                     <div class="flex items-center justify-between text-xs text-gray-400">
                         <span class="flex items-center gap-1">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 4h10m-10 0a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V9a2 2 0 00-2-2H7z"/>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M8 7V3m8 4V3m-9 4h10m-10 0a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V9a2 2 0 00-2-2H7z" />
                             </svg>
-                            {{ \Carbon\Carbon::parse($tech['publishedAt'] ?? now())->format('F d, Y') }}
+                            {{ \Carbon\Carbon::parse($tech->publishedAt ?? now())->format('F d, Y') }}
                         </span>
-                        <a href="{{ $tech['url'] ?? '#' }}" target="_blank" class="underline">Read more</a>
+                        <a href="{{ $tech->url ?? '#' }}" target="_blank" class="underline">Read more</a>
                     </div>
                 </div>
             </div>
@@ -340,47 +364,58 @@ Our experience list 6 pengalaman paling besar
             {{-- Business --}}
             <div class="bg-black rounded-lg overflow-hidden shadow hover:shadow-lg transition">
                 <div class="relative">
-                    <img src="{{ $business['urlToImage'] ?? asset('img/project.jpeg') }}" alt="News" class="w-full h-48 object-cover">
-                    <span class="absolute top-3 left-3 bg-teal-600 text-xs font-semibold px-3 py-1 rounded">Business</span>
+                    <img src="{{ $business->urlToImage ?? asset('img/project.jpeg') }}" alt="News"
+                        class="w-full h-48 object-cover">
+                    <span
+                        class="absolute top-3 left-3 bg-teal-600 text-xs font-semibold px-3 py-1 rounded">Business</span>
                 </div>
                 <div class="p-5">
-                    <h3 class="text-lg text-gray-300 font-semibold mb-2">{{ $business['title'] ?? 'No Title' }}</h3>
-                    <p class="text-sm text-gray-300 mb-4">{{ \Illuminate\Support\Str::limit($business['description'] ?? 'No description.', 120) }}</p>
+                    <h3 class="text-lg text-gray-300 font-semibold mb-2">{{ $business->title ?? 'No Title' }}</h3>
+                    <p class="text-sm text-gray-300 mb-4">
+                        {{ \Illuminate\Support\Str::limit($business->description ?? 'No description.', 120) }}</p>
                     <div class="flex items-center justify-between text-xs text-gray-400">
                         <span class="flex items-center gap-1">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 4h10m-10 0a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V9a2 2 0 00-2-2H7z"/>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M8 7V3m8 4V3m-9 4h10m-10 0a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V9a2 2 0 00-2-2H7z" />
                             </svg>
-                            {{ \Carbon\Carbon::parse($business['publishedAt'] ?? now())->format('F d, Y') }}
+                            {{ \Carbon\Carbon::parse($business->publishedAt ?? now())->format('F d, Y') }}
                         </span>
-                        <a href="{{ $business['url'] ?? '#' }}" target="_blank" class="underline">Read more</a>
+                        <a href="{{ $business->url ?? '#' }}" target="_blank" class="underline">Read more</a>
                     </div>
                 </div>
             </div>
 
-            {{-- Education --}}
+            {{-- general --}}
             <div class="bg-black rounded-lg overflow-hidden shadow hover:shadow-lg transition">
                 <div class="relative">
-                    <img src="{{ $education['urlToImage'] ?? asset('img/project.jpeg') }}" alt="News" class="w-full h-48 object-cover">
-                    <span class="absolute top-3 left-3 bg-cyan-600 text-xs font-semibold px-3 py-1 rounded">Education</span>
+                    <img src="{{ $general->urlToImage ?? asset('img/project.jpeg') }}" alt="News"
+                        class="w-full h-48 object-cover">
+                    <span
+                        class="absolute top-3 left-3 bg-cyan-600 text-xs font-semibold px-3 py-1 rounded">General</span>
                 </div>
                 <div class="p-5">
-                    <h3 class="text-lg text-gray-300 font-semibold mb-2">{{ $education['title'] ?? 'No Title' }}</h3>
-                    <p class="text-sm text-gray-300 mb-4">{{ \Illuminate\Support\Str::limit($education['description'] ?? 'No description.', 120) }}</p>
+                    <h3 class="text-lg text-gray-300 font-semibold mb-2">{{ $general->title ?? 'No Title' }}</h3>
+                    <p class="text-sm text-gray-300 mb-4">
+                        {{ \Illuminate\Support\Str::limit($general->description ?? 'No description.', 120) }}</p>
                     <div class="flex items-center justify-between text-xs text-gray-400">
                         <span class="flex items-center gap-1">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 4h10m-10 0a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V9a2 2 0 00-2-2H7z"/>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M8 7V3m8 4V3m-9 4h10m-10 0a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V9a2 2 0 00-2-2H7z" />
                             </svg>
-                            {{ \Carbon\Carbon::parse($education['publishedAt'] ?? now())->format('F d, Y') }}
+                            {{ \Carbon\Carbon::parse($general->publishedAt ?? now())->format('F d, Y') }}
                         </span>
-                        <a href="{{ $education['url'] ?? '#' }}" target="_blank" class="underline">Read more</a>
+                        <a href="{{ $general->url ?? '#' }}" target="_blank" class="underline">Read more</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 
 

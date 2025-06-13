@@ -6,8 +6,18 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Http\\Controllers\\AuthController' => $baseDir . '/app/Http/Controllers/AuthController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
-    'App\\Models\\User' => $baseDir . '/app/Models/User.php',
+    'App\\Http\\Controllers\\LandingController' => $baseDir . '/app/Http/Controllers/LandingController.php',
+    'App\\Http\\Controllers\\LoginController' => $baseDir . '/app/Http/Controllers/LoginController.php',
+    'App\\Models\\Akun' => $baseDir . '/app/Models/Akun.php',
+    'App\\Models\\Dompet' => $baseDir . '/app/Models/Dompet.php',
+    'App\\Models\\Kendaraan' => $baseDir . '/app/Models/Kendaraan.php',
+    'App\\Models\\LahanParkir' => $baseDir . '/app/Models/LahanParkir.php',
+    'App\\Models\\Profil' => $baseDir . '/app/Models/Profil.php',
+    'App\\Models\\RiwayatUpdate' => $baseDir . '/app/Models/RiwayatUpdate.php',
+    'App\\Models\\SlotParkir' => $baseDir . '/app/Models/SlotParkir.php',
+    'App\\Models\\Tiket' => $baseDir . '/app/Models/Tiket.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Brick\\Math\\BigDecimal' => $vendorDir . '/brick/math/src/BigDecimal.php',
@@ -128,6 +138,7 @@ return array(
     'Cron\\MonthField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
     'Database\\Factories\\UserFactory' => $baseDir . '/database/factories/UserFactory.php',
     'Database\\Seeders\\DatabaseSeeder' => $baseDir . '/database/seeders/DatabaseSeeder.php',
+    'Database\\Seeders\\UserSeeder' => $baseDir . '/database/seeders/UserSeeder.php',
     'DateError' => $vendorDir . '/symfony/polyfill-php83/Resources/stubs/DateError.php',
     'DateException' => $vendorDir . '/symfony/polyfill-php83/Resources/stubs/DateException.php',
     'DateInvalidOperationException' => $vendorDir . '/symfony/polyfill-php83/Resources/stubs/DateInvalidOperationException.php',
@@ -6260,5 +6271,9 @@ return array(
     'Whoops\\Util\\Misc' => $vendorDir . '/filp/whoops/src/Whoops/Util/Misc.php',
     'Whoops\\Util\\SystemFacade' => $vendorDir . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
     'Whoops\\Util\\TemplateHelper' => $vendorDir . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
+    'jcobhams\\NewsApi\\Helpers' => $vendorDir . '/jcobhams/newsapi/src/Helpers.php',
+    'jcobhams\\NewsApi\\NewsApi' => $vendorDir . '/jcobhams/newsapi/src/NewsApi.php',
+    'jcobhams\\NewsApi\\NewsApiAuth' => $vendorDir . '/jcobhams/newsapi/src/NewsApiAuth.php',
+    'jcobhams\\NewsApi\\NewsApiException' => $vendorDir . '/jcobhams/newsapi/src/NewsApiException.php',
     'voku\\helper\\ASCII' => $vendorDir . '/voku/portable-ascii/src/voku/helper/ASCII.php',
 );

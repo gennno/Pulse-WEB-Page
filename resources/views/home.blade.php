@@ -24,7 +24,7 @@
     <!-- Navbar -->
     <header class="bg-white shadow sticky top-0 z-50">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center relative">
-            <a href="#" class="text-2xl font-bold text-gray-900">Pulse Solutions</a>
+            <a href="#" class="text-2xl font-bold text-gray-900">Pulse</a>
 
             <!-- Desktop Menu -->
             <ul class="hidden md:flex space-x-6">

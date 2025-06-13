@@ -31,4 +31,8 @@ return [
         ],
     ],
 
+    'newsapi' => [
+    'key' => env('31b8a45d5e1c4ac99de25272e2b88e8c'),
+],
+
 ];
