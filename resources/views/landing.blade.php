@@ -518,10 +518,9 @@ Our experience list 6 pengalaman paling besar
             <h4 class="text-lg font-semibold mb-4">Company</h4>
             <ul class="space-y-2 text-sm text-gray-300">
                 <li><a href="#about" class="hover:text-blue-400">About Us</a></li>
-                <li><a href="#" class="hover:text-blue-400">Our Team</a></li>
-                <li><a href="#" class="hover:text-blue-400">Careers</a></li>
-                <li><a href="#" class="hover:text-blue-400">Blog & Insights</a></li>
-                <li><a href="#contact" class="hover:text-blue-400">Contact Us</a></li>
+                <li><a href="#services" class="hover:text-blue-400">Services</a></li>
+                <li><a href="#partners" class="hover:text-blue-400">Partners/Customers</a></li>
+                <li><a href="#experiences" class="hover:text-blue-400">Experiences</a></li>
             </ul>
         </div>
 
@@ -534,7 +533,7 @@ Our experience list 6 pengalaman paling besar
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M17.657 16.657L13.414 12.414M12 11.999l-4.243 4.243M15 7a2 2 0 100-4 2 2 0 000 4z" />
                 </svg>
-                <span>Jakarta, Indonesia</span>
+                <span>Batam, Kepulauan Riau, Indonesia</span>
             </div>
             <div class="flex items-center space-x-2 text-sm text-gray-300">
                 <svg class="h-5 w-5 text-blue-400" fill="none" stroke="currentColor" stroke-width="2"
@@ -542,14 +541,14 @@ Our experience list 6 pengalaman paling besar
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M3 10l1.586 1.586a2 2 0 002.828 0L12 6.414l4.586 4.586a2 2 0 002.828 0L21 10m-6 6h6" />
                 </svg>
-                <span>+62812 3456 7890</span>
+                <a href="https://wa.me/6281991178900">+62819-9117-8900</a>
             </div>
             <div class="flex items-center space-x-2 text-sm text-gray-300">
                 <svg class="h-5 w-5 text-blue-400" fill="none" stroke="currentColor" stroke-width="2"
                     viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M16 12H8m0 0l4-4m-4 4l4 4" />
                 </svg>
-                <span>info@pulse.com</span>
+                <a href="https://pulse.dpmindonesia.com/">pulse.dpmindonesia.com</a>
             </div>
         </div>
     </div>
